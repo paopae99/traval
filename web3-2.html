@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: arial;
+          }
+          * a {
+            text-decoration: none;
+          }
+          * li {
+            list-style: none;
+            
+          }
+          .container {
+            min-height: 120vh;
+            padding-bottom: 50px;
+            margin: 0 auto;
+            position: relative;
+          }
+
+          .navBar {
+            display: flex;
+            width: 85%;
+            justify-content: space-between;
+            margin: 0 auto;
+            align-items: center;
+            height: 15vh;
+          }
+          .navBar ul {
+            display: flex;
+            align-items: center;
+          }
+          .navBar ul li {
+            padding: 0 25px;
+          }
+          .navBar ul li a {
+            font-size: 1rem;
+            color: #fff;
+            font-weight: 400;
+            letter-spacing: 1.5px;
+          }
+          .navBar .logo a {
+            font-size: 2.3rem;
+            color: #fff;
+      
+          }
+            /* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+  
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  color: #fffbfb;
+  background-image: url('https://images.pexels.com/photos/1809644/pexels-photo-1809644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); /* URL ของรูปภาพที่คุณต้องการ */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* รูปภาพจะปรากฏตลอดเวลา */
+}
+.header {
+  background-color: #0e0e0e; /* Dark brown */
+  color: #fff;
+  padding: 8px;
+  
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list li {
+  margin: 0 15px;
+}
+
+.nav-list li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.content {
+  padding: 20px;
+  text-align: center;
+}
+
+.hero {
+  background-color: #d4ccc4; /* Light brown */
+  padding: 600px;
+  text-align: center;
+}
+
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  max-height: 500px;
+  border-radius: 15px; /* Adding border-radius for rounded corners */
+  width: 800px;
+ 
+}
+
+.image-container {
+ text-align: center;
+  margin: 20px auto; /* Set margin to auto to center horizontally */
+  padding: 10px 15px;
+  background-color: rgba(36, 28, 28, 1); /* Adding white background with opacity */
+  border-radius: 15px;
+  max-width: 50%;
+  margin-top: 20px;
+}
+
+.image-caption {
+  margin-top: 10px;
+  font-size: 0.8rem;
+  color: #ffffff;
+}
+.image-size {
+  max-width: 70%;
+  max-height: 700px;
+}
+
+/* Adjust footer color for better visibility */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+.logo img {
+  width: 180px;
+    height: auto;
+    margin-top: 20px;
+} 
+h1 {
+  font-size: 2.2rem; /* ปรับขนาดตามต้องการ */
+  font-weight: bold; /* เอาข้อความเป็นตัวหนังสือปกติ */
+  color: #ffffff; /* เปลี่ยนสีตามต้องการ */
+  text-align: center; /* จัดกึ่งกลาง */
+  font-style: oblique ;
+  text-shadow:-1px -1px #000000; 
+}
+
+h3 {
+  font-size: 1.1rem;
+  font-weight: normal;
+  color: #000000;
+  text-align: center; /* Center the text */
+  font-family: "monospace"; /* Use a monospace font */
+  margin: 0; /* Remove default margins */
+  padding: 10px; /* Add consistent padding */
+  white-space: pre-line; /* Preserve line breaks and spaces */
+  text-indent: 2em;
+
+}
+
+ </style>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="styles.css">
+ <title>Shukhothai Travel</title>
+  </head>
+   <body>
+  <header class="header">
+  <div class="navBar">
+  <div class="logo">
+    <img src="logo.png" alt="Logo">
+  </div>
+   <ul>
+                        <li><a href="web3.html">Home</a></li>
+                        <li><a href="web3-1.html">Travel</a></li>
+                        <li><a href="web3-2.html">Restaurant</a></li>
+                        <li><a href="web3-3.html">Map</a></li>
+                        <li><a href="web3-4.html">About</a></li>
+                      </header>
+                      <main class="content">
+                        <br><br>
+                        <h1>รวม 5 ร้านก๋วยเตี๋ยว ของขึ้นชื่อสุโขทัยต้องเเวะไปลอง!</h1><br><br>
+                        <div class="image">
+                          <img src="image11.jpg" alt="Image 1" class="image-size"><br><br><br>
+                          <h3>ถ้าหากมาสุโขทัย แล้วไม่รู้จะกินอะไร ขอเเนะนำเลยว่า "ก๋วยเตี๋ยว" ถือเป็น ของขึ้นชื่อสุโขทัยเลยก็ว่าได้<br>
+                              กับความเป็นเอกลักษณ์เฉพาะตัว ก๋วยเตี๋ยวหมูแดงที่มีการใส่ถั่วฝักยาวลงในก๋วยเตี๋ยว กับน้ำซุปที่เข้มข้นอร่อยกลมกล่อมสุดๆ <br>
+                              และไม่เพียงมีเเค่ก๋วยเตี๋ยวสุโขทัยเท่านั้นยังมีก๋วยเตี๋ยวต้มยำ ก๋วยเตี๋ยวนำตก ก๋วยเตี่ยวไก่ตุ๋น และอื่นๆให้เลือกทานอย่างจุใจ<br>
+                              เราได้รวบรวมร้านก๋วยเตี๋ยวที่อร่อยแบบไม่ต้องปรุงถูกปากใครหลายๆคนเเน่นอน รับลองเลยว่าหากได้ชิมเเล้วคิดถึง "สุโขทัย" <br><br><br>
+                            </h3>                         
+                      </div>
+                    
+        <div class="image-container">
+          <img src="image6.jpg" alt="Image 1">
+          <h2>ก๋วเตี๋ยวชายทุ่ง</h2>
+          <p class="image-caption">ร้านก๋วยเตี๋ยวชื่อดังทุ่งเสลี่ยม ร้านอยู่ที่ ต.กลางดง อ.ทุ่งเสลี่ยม น้ำซุปเข้มสุดๆ อร่อยเบบไม่ต้องปรุงมีอยู่จริง </p>
+      </div>
+     <br><br> <div class="image-container">
+          <img src="image7.jpg" alt="Image 2">
+          <h2>ก๋วยเตี๋ยวเจ๊ทุมทุเลาใน</h2>
+          <p class="image-caption">เป็นร้านเล็กๆ ตั้งอยู่ที่ บ้านแม่ทุเลาใน ต.ทุ่งเสลี่ยม แต่รสชาตินั้นไม่เล็กอร่อยมาก ใครได้ลองบอกเลยติดใจ</p>
+      </div>
+      <br><br><div class="image-container">
+          <img src="image8.jpg" alt="Image 3">
+          <h2>ก๋วยเตี๋ยวเจ๊นิด</h2>
+          <p class="image-caption">ร้านอร่อยอีกที่ของทุ่งเสลี่ยม อยู่ติดกับวัดเหมืองนา บอกเลยว่าของอร่อยเเละถูกมีอยู่จริงเริ่มต้นที่ 25 บาท เท่านั้น!!</p>
+      </div>
+      <br><br><div class="image-container">
+          <img src="image9.jpg" alt="Image 4">
+          <h2>ก๋วยเตี๋ยวสุโขทัยเจ๊แฮ</h2>
+          <p class="image-caption">ร้านชื่อดังเมืองสุโขทัย ตั้งอยู่ที่ถนนจรดร่องวิถี ต.บ้านกล้วย เป็นก๋วยเตี๋ยวที่อร่อยเเละต้องถูกใจใครหลายๆคนเเน่นอน</p>
+      </div>
+      <br><br><div class="image-container">
+          <img src="image10.jpg" alt="Image 5">
+          <h2>ก๋วยเตี๋ยวสุโขทัยโป๊ะเป๊ะ</h2>
+          <p class="image-caption">ร้านตั่งอยู่ที่ ถนนศรีสมบูรณ์ ตำบลธานี อำเภอเมืองสุโขทัย ร้านนี้มีหลากหลายเมนูให้เลือกทานบอกเลยว่าอร่อยทุกเมนู </p>
+      </div><br><br>
+  </main>
+<footer class="footer">
+  <p> *ขออนุญาตใช้รูปภาพเเละกล่าวถึงเว็บไซต์เพื่อนำไปใช้ในกรณีศึกษาเท่านั้น!!*</p>
+</footer>
+        
+</body>
+</html>
